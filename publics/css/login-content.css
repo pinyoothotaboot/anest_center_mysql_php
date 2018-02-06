@@ -1,0 +1,116 @@
+#login{
+		font:14px Geneva,Arial,Helvetica,sans-serif;
+		background-color: #AAA;
+		min-width:500px;
+		margin-left:201px;
+		margin-top:40px;
+		padding-left:0px;
+		position:fixed;
+		width:100%;
+		height:100%;
+	}
+#block{
+		display:block;
+		background:#DDD;
+		float:left;
+		margin-top:50px;
+		margin-left:25%;
+		width:400px;
+		height:400px;
+		background:#EEE;
+	}
+#logo{
+	margin-top:10px;
+	display:block;
+	width:95%;
+	height:20%;
+	background:#0DB0FF;
+	margin-left:10px;
+}
+#logo-label{
+	margin-left:43%;
+	}
+#control{
+	margin-top:0px;
+	display:block;
+	width:95%;
+	height:55%;
+	background:#DDD;
+	margin-left:10px;
+}
+#control-input{
+	margin-top:0px;
+	display:block;
+	width:95%;
+	height:85%;
+	background:#EEE;
+	margin-left:10px;
+}
+#foot{
+	margin-top:0px;
+	display:block;
+	width:95%;
+	height:20%;
+	background:#0DB0FF;
+	margin-left:10px;
+}
+.label {
+	margin-left:16px;
+	color:#396;
+}
+#user{
+		height:35px;
+		width:250px;
+		margin-left:5px;
+		margin-top:15px;
+		font-size:16px;
+		border:#EEE;
+}
+#pass{
+		height:35px;
+		width:250px;
+		margin-left:9px;
+		margin-top:15px;
+		font-size:16px;
+		border:#EEE;
+}
+#label-forgot{
+	margin-left:87px;
+}
+#label-forgot:hover{
+	color:#F00;
+	cursor:pointer;
+}
+#check{
+	margin-left:87px;
+	margin-top:15px;
+	border:#396;
+}
+.btn{
+	display:block;
+	cursor:pointer;
+	background:#0DB0FD;
+	border:#396;
+	color:#EEE;
+	height:35px;
+	font-size:16px;
+	font-weight:500;
+}
+.btn:hover{
+		background:#91D7F9;
+		color:#000;
+}
+
+#sigin{
+	width:100px;
+	margin-left:80px;
+}
+#register{
+	width:120px;
+}
+#logo1{
+	color:#FFF;
+	font-size:26px;
+	font-weight:200;
+}
+

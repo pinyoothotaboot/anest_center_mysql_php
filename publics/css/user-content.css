@@ -1,0 +1,111 @@
+/* CSS Document */
+#user1{
+		font:14px Geneva,Arial,Helvetica,sans-serif;
+		background-color: #AAA;
+		min-width:500px;
+		margin-left:201px;
+		margin-top:40px;
+		padding-left:0px;
+		position:fixed;
+		width:100%;
+		height:100%;
+}
+#block{
+		display:block;
+		background:#DDD;
+		float:left;
+		margin-top:10px;
+		margin-left:20%;
+		width:600px;
+		height:600px;
+		background:#EEE;
+}
+#logo{
+	margin-top:10px;
+	display:block;
+	width:96.5%;
+	height:6%;
+	background:#0DB0FF;
+	margin-left:10px;
+}
+#control{
+	margin-top:0px;
+	display:block;
+	width:96.5%;
+	height:85%;
+	background:#DDD;
+	margin-left:10px;
+}
+#foot{
+	margin-top:0px;
+	display:block;
+	width:96.5%;
+	height:6%;
+	background:#0DB0FF;
+	margin-left:10px;
+}
+#control-input{
+	margin-top:0px;
+	display:block;
+	width:96.5%;
+	height:94%;
+	background:#EEE;
+	margin-left:10px;
+}
+#logo-label{
+	color:#FFF;
+	font-size:24px;
+	font-weight:200;
+}
+.box{
+	height:35px;
+	border: 2px solid #DDD;
+	font-size:16px;
+}
+
+#name,#tel{
+	margin-left:27px;
+	width:230px;
+}
+#lastname{
+	margin-left:0px;
+	width:257px;
+}
+#gender{
+	margin-left:27px;
+	height:40px;
+	width:130px;
+}
+#position{
+	height:40px;
+	width:363px;
+}
+#account{
+	height:40px;
+	width:260px;
+}
+#email,#user,#pass,#cpass,#pic{
+	margin-left:27px;
+	width:494px;
+}
+
+
+#register{
+	display:block;
+	cursor:pointer;
+	background:#008080;
+	border:#396;
+	color:#EEE;
+	height:35px;
+	font-size:20px;
+	width:495px;
+	font-weight:500;
+	margin-left:27px;
+	margin-top:15px;
+}
+#register:hover{
+	background:#0CC;
+}
+
+
+

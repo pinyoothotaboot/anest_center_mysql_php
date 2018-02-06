@@ -1,0 +1,186 @@
+/* CSS Document */
+
+	body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	
+	}
+	#nav{
+		width:200px;
+		height:665px;
+		background:#000;
+		margin-top:0;
+		float:left;
+		margin-left:0;
+		font:14px Geneva,Arial,Helvetica,sans-serif;
+		border:1px solid #000;
+		position:fixed;
+		padding:0px;
+	}
+	#name{
+		margin-left:35px;
+		margin-top:15px;
+	}
+	#status{
+		margin-left:66px;
+		margin-top:1px;
+	}
+	#img-profile{
+		margin-left:34px;
+		width:120px;
+		height:120px;
+		background:#fff;
+		border-radius:400px;
+		border: 4px solid #AAA;	
+	}
+	
+	#nav .profile,#nav .profile:hover{
+			padding-left: 0px;
+			padding-right: 0px;
+			color: #FFF;
+			background:#000;
+			text-shadow: 1px 1px 1px #66696B;
+			width: 200px;
+			height:250px;
+	
+	}
+	#nav li{
+			list-style:none;
+			display:block;
+			float:none;
+			height:40px;
+			position:relative;
+			
+			background:#000;
+			width:200px;
+	}
+	#nav li a{
+			padding:0px 0px 0px 5px;
+			margin:0px;
+			margin-left:55px;
+			line-height:40px;
+			text-decoration:none;
+			color:#FFF;
+		}
+	#nav ul{
+			background: #0DB0FF; 
+			padding: 0px;
+			margin-left:200px;
+			}
+	#nav li.service{
+		background:url(../images/service2.png) no-repeat 20px 5px;
+	
+	}
+	#nav li.service:hover{
+		background:url(../images/service2.png) no-repeat 20px 5px #0DB0FF;
+	
+	}
+	
+	#nav li.home{
+		background:url(../images/home1.png) no-repeat 20px 5px;
+	
+	}
+	#nav li.home:hover{
+		background:url(../images/home1.png) no-repeat 20px 5px #0DB0FF;
+	
+	}
+	
+	#nav li.admin{
+		background:url(../images/admin1.png) no-repeat 20px 5px;
+	
+	}
+	#nav li.admin:hover{
+		background:url(../images/admin1.png) no-repeat 20px 5px #0DB0FF;
+	
+	}
+	
+	#nav li.logout{
+		background:url(../images/login2.png) no-repeat 20px 5px;
+	
+	}
+	#nav li.logout:hover{
+		background:url(../images/login2.png) no-repeat 20px 5px #0DB0FF;
+	
+	}
+	
+	#nav li.report{
+		background:url(../images/report3.png) no-repeat 20px 5px;
+	
+	}
+	#nav li.report:hover{
+		background:url(../images/report3.png) no-repeat 20px 5px #0DB0FF;
+	
+	}
+				
+	#nav li:hover{
+	background:#0DB0FF;
+	}
+	#nav li a{
+	display: block;
+}
+#nav ul li {
+	border-right:none;
+	width:200px;
+	height:40px;
+	background: #0DB0FF; 
+}
+
+#nav ul li a {
+	border-right: none;
+	color:#FFF;
+	border-bottom:1px solid #FFFFFF;
+	margin-left:10px;
+}
+
+#nav ul li:hover,#nav ul li a:hover{
+	background:#91D7F9;
+	color:#000;
+}
+
+#nav ul li:last-child { border-bottom: none;}
+#nav ul li:last-child a{ border-bottom: none;}
+/* Sub menus */
+#nav ul{
+	display: none;
+	visibility:hidden;
+	position: absolute;
+	top: 0px;
+}
+
+/* Third-level menus */
+#nav ul ul{
+	top: 0px;
+	left:0px;
+	display: none;
+	visibility:hidden;
+	border: 0px solid #DDDDDD;
+}
+#nav ul ul li {
+	border-right:none;
+	width:200px;
+	height:40px;
+	background: #91D7F9; 
+}
+#nav ul ul li:hover,#nav ul ul li a:hover{
+	background:#0DB0FF;
+	color:#FFF;
+}
+/* Fourth-level menus */
+#nav ul ul ul{
+	top: 0px;
+	left:0px;
+	display: none;
+	visibility:hidden;
+	border: 1px solid #DDDDDD;
+}
+
+#nav ul li{
+	display: block;
+	visibility:visible;
+}
+#nav li:hover > ul{
+	display: block;
+	visibility:visible;
+}

@@ -1,0 +1,204 @@
+/* CSS Document */
+#content{
+			font:14px Geneva,Arial,Helvetica,sans-serif;
+			background-color: #AAA;
+			min-width:500px;
+			margin-left:201px;
+			margin-top:40px;
+			padding-left:0px;
+			position:fixed;
+			width:100%;
+			height:100%;
+		
+	}
+	
+	
+	#d{
+		display:block;
+		background:#008040;
+		float:right;
+		margin-top:30px;
+		margin-left:0px;
+		width:80px;
+		height:50px;
+	}
+	
+	#t{
+		display:block;
+		background:#FFF;
+		float:right;
+		margin-top:30px;
+		margin-right:19%;
+		width:120px;
+		height:50px;
+	}
+	#t0{
+		font-size:10px;
+		color:#008040;
+		margin-left:70px;
+		}
+	#t1{
+		font-size:30px;
+		color:#008040;
+		margin-left:15px;
+	}
+	
+	#day{
+		font-size:13px;
+		color:#FFF;
+		margin-left:10px;
+	}
+	#date1{
+		font-size:30px;
+		color:#FFF;
+		margin-left:10px;
+	}
+	#month{
+		font-size:13px;
+		color:#FFF;
+		margin-left:2px;
+	}
+	
+	
+	
+	#anes1{
+		display:block;
+		width:120px;
+		margin-left:2%;
+		margin-top:25px;
+		font-weight:700;
+	}
+	#anes2{
+		display:block;
+		width:200px;
+		margin-left:2%;
+		margin-top:0px;
+		
+	}
+	#anest1{
+		font-size:30px;
+	}
+#block{
+			font:14px Geneva,Arial,Helvetica,sans-serif;
+			background-color: #AAA;
+			min-width:500px;
+			padding-left:0px;
+			position:fixed;
+			width:100%;
+			height:100%;
+}
+	#b1,#b2,#b3,#b4{
+		display:block;
+		background:#FFF;
+		width:250px;
+		float:left;
+		height:130px;
+		border-radius:2px;
+		margin-left:2%;
+		margin-top:2%;
+	}
+	
+	#b1{
+		background:url(../images/count_all.png) no-repeat 0px 0px #FFF; 
+	}
+	#b2{
+		background:url(../images/repair.png) no-repeat 0px 0px #FFF; 
+	}
+	#b3{
+		background:url(../images/count_service.png) no-repeat 0px 0px #FFF; 
+	}
+	#b4{
+		background:url(../images/count_back.png) no-repeat 0px 0px #FFF; 
+	}
+	
+	#b1-title{
+		float:right;
+		font-size:15px;
+		color:#F60;
+		margin-right:10px;
+	}
+	#b1-count{
+		float:right;
+		font-size:70px;
+		color:#008040;
+		margin-right:10px;
+	}
+	#b1-from{
+		float:right;
+		font-size:15px;
+		color:#F60;
+		margin-right:25px;
+	}
+	
+	
+	#b2-title{
+		float:right;
+		font-size:15px;
+		color:#F60;
+		margin-right:10px;
+	}
+	#b2-count{
+		float:right;
+		font-size:100px;
+		color:#00B;
+		margin-left:100px;
+		
+	}
+	
+	#b3-title{
+		float:right;
+		font-size:15px;
+		color:#F60;
+		margin-right:10px;
+	}
+	#b3-count{
+		float:right;
+		font-size:70px;
+		color:#800080;
+		margin-right:20%;
+	}
+	#b3-from{
+		float:right;
+		font-size:15px;
+		color:#000;
+		margin-right:20%;
+	}
+	
+	#b4-title{
+		float:right;
+		font-size:15px;
+		color:#F60;
+		margin-right:10px;
+	}
+	#b4-count{
+		float:right;
+		font-size:100px;
+		color:#111;
+		margin-right:20%;
+	}
+	
+
+	#repair-grp{
+		display:block;
+		background:#FFF;
+		width:700px;
+		float:left;
+		height:340px;
+		border-radius:2px;
+		margin-left:2%;
+		margin-top:2%;
+	}
+	#repair-grp1{
+		display:block;
+		background:#FFF;
+		width:350px;
+		float:right;
+		height:340px;
+		border-radius:2px;
+		margin-right:260px;
+		margin-top:2%;
+	}
+	
+	
+	
+	

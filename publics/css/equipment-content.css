@@ -1,0 +1,155 @@
+/* CSS Document */
+#equipment{
+		font:14px Geneva,Arial,Helvetica,sans-serif;
+		background-color: #AAA;
+		min-width:500px;
+		margin-left:201px;
+		margin-top:40px;
+		padding-left:0px;
+		position:absolute;
+		width:100%;
+		height:1900px;
+}
+#block{
+		display:block;
+		background:#DDD;
+		
+		float:left;
+		margin-top:10px;
+		margin-left:2.5%;
+		width:82%;
+		height:1870px;;
+		background:#EEE;
+}
+#logo{
+	margin-top:10px;
+	display:block;
+	width:98%;
+	height:50px;
+	background:#0DB0FF;
+	margin-left:10px;
+}
+#control{
+	margin-top:0px;
+	display:block;
+	width:98%;
+	height:1750px;
+	background:#DDD;
+	margin-left:10px;
+}
+#foot{
+	margin-top:0px;
+	display:block;
+	width:98%;
+	height:50px;
+	background:#0DB0FF;
+	margin-left:10px;
+}
+#control-input{
+	margin-top:0px;
+	display:block;
+	width:98%;
+	height:1720px;
+	background:#EEE;
+	margin-left:10px;
+}
+#logo-label{
+	color:#FFF;
+	font-size:32px;
+	font-weight:200;
+}
+#control-input ul li{
+	display:block;
+}
+.box{
+	height:25px;
+	border: 2px solid #DDD;
+	font-size:16px;
+	margin-top:10px;
+}
+#code{
+	width:400px;
+	margin-left:10px;
+}
+#name{
+	width:400px;
+	margin-left:10px;
+}
+#brand,#model,#comp-tel,#comp-fax,#comp-sale-tel,#comp-price{
+	width:250px;
+}
+#group{
+	width:403px;
+	height:30px;
+	margin-left:10px;
+}
+#budget{
+	width:510px;
+}
+#begin-date{
+	margin-left:10px;
+	width:453px;
+}
+#end-date
+{
+	width:453px;
+}
+#comp,#comp-sale{
+	margin-left:10px;
+	width:400px;
+}
+
+#sap{
+	margin-left:10px;
+	width:100px;
+}
+#sn,#tel{
+	width:100px;
+}
+
+#status,#address{
+	width:200px;
+	height:30px;
+	margin-top:9px;
+	margin-left:0px;
+}
+#register{
+	display:block;
+	cursor:pointer;
+	background:#008080;
+	border:#396;
+	color:#EEE;
+	height:35px;
+	font-size:20px;
+	width:200px;
+	font-weight:500;
+	margin-left:10px;
+	margin-top:10px;
+}
+#register:hover{
+	background:#0CC;
+}
+#add{
+	margin-left:10px;
+	margin-top:5px;
+	cursor:pointer;
+	width:30px;
+	height:30px;
+}
+#rev{
+	margin-left:0px;
+	margin-top:5px;
+	cursor:pointer;
+	width:30px;
+	height:30px;
+}
+#myTbl{
+	border:0px solid #DDD;
+}
+#img{
+	width:400px;
+	height:300px;
+	margin-left:0%;
+}
+
+

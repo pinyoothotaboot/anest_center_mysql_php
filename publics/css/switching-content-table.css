@@ -1,0 +1,50 @@
+/* CSS Document */
+#table-switching{
+			font:12px Geneva,Arial,Helvetica,sans-serif;
+			background-color: #AAA;
+			min-width:500px;
+			margin-left:201px;
+			margin-top:40px;
+			padding-left:0px;
+			position:absolute;
+			width:100%;
+			height:100%;
+
+}
+#switching-table{
+	margin: 1px auto;
+	font-weight:normal;
+	width:100%;
+}
+#switching-table th{
+	border-bottom: 1px solid #F6F6F6;
+	padding: 1px;
+	text-align:center;
+	background:#DDD;
+	color:#000;
+}
+#switching-table td{
+	padding: 1px;
+	text-align:start;
+}
+
+#switching-table tr{
+	background:#FFE;
+}
+#switching-table tr:hover{
+	cursor:pointer;
+	background:#FC3;
+}
+
+
+#switching-table .sel-th{
+	width:100%;
+	display:block;
+	margin-left:0px;
+	background:#DDD;
+	border-color:#DDD;
+}
+
+
+
+

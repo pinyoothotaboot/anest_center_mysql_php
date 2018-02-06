@@ -1,0 +1,85 @@
+/* CSS Document */
+#group{
+		font:14px Geneva,Arial,Helvetica,sans-serif;
+		background-color: #AAA;
+		min-width:500px;
+		margin-left:201px;
+		margin-top:40px;
+		padding-left:0px;
+		position:fixed;
+		width:100%;
+		height:100%;
+	}
+#block{
+		display:block;
+		background:#DDD;
+		float:left;
+		margin-top:50px;
+		margin-left:25%;
+		width:400px;
+		height:400px;
+		background:#EEE;
+	}
+#logo{
+	margin-top:10px;
+	display:block;
+	width:95%;
+	height:20%;
+	background:#0DB0FF;
+	margin-left:10px;
+}
+#foot{
+	margin-top:0px;
+	display:block;
+	width:95%;
+	height:20%;
+	background:#0DB0FF;
+	margin-left:10px;
+}
+#control{
+	margin-top:0px;
+	display:block;
+	width:95%;
+	height:55%;
+	background:#DDD;
+	margin-left:10px;
+}
+#control-input{
+	margin-top:0px;
+	display:block;
+	width:95%;
+	height:85%;
+	background:#EEE;
+	margin-left:10px;
+}
+#group-input,#group-maintanance{
+		height:35px;
+		width:310px;
+		margin-left:25px;
+		margin-top:23px;
+		font-size:16px;
+		border:#EEE;
+		border:1px solid #DDD;
+}
+#logo-label{
+	color:#FFF;
+	font-size:24px;
+	font-weight:200;
+}
+#grp{
+	display:block;
+	cursor:pointer;
+	background:#008080;
+	border:#396;
+	color:#EEE;
+	height:35px;
+	font-size:20px;
+	width:310px;
+	font-weight:500;
+	margin-left:25px;
+	margin-top:10px;
+}
+#grp:hover{
+	background:#0CC;
+}
+
